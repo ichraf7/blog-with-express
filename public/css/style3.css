@@ -1,0 +1,34 @@
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+        border-top-color: rgb(245, 198, 203);
+        border-right-color: rgb(245, 198, 203);
+        border-bottom-color: rgb(245, 198, 203);
+        border-left-color: rgb(245, 198, 203);
+  }
+  
+  .alert-dismissible {
+    padding-right: 4rem;
+  }
+  
+  .alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+        padding-right: 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    border-radius: .25rem;
+  }
+  
+  .fade {
+    transition: opacity .15s linear;
+  }
+  
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
